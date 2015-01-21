@@ -22,7 +22,7 @@
         </td>
         <td>
           <button class="btn btn-default btn-md">
-            <%= link_to 'Delete', creature_path(c), method: :delete %>
+            <%= link_to 'Delete', creature_path(c), method: :delete, data: {:confirm => 'Are you sure?'} %>
           </button>
         </td>
         <td>
