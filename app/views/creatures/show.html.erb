@@ -1,0 +1,17 @@
+<div class="outer col-md-6 col-md-offset-3">
+  <div class="col-md-12 text-center">
+    <h1 id="creature-desc"><%= @creature.name %></h1>
+    <p id="creature-desc-p">Description: <%= @creature.desc %></p>
+    <p id="tag-p">
+      <b>Tags: </b>
+      <% @creature.tags.each do |tag|%>
+      <%= link_to tag.name, tag_path(tag.name) %>
+      <% end %>
+    </p>
+  </div>
+  <div class="col-md-12 text-center">
+    <% @results[1..24].each do |photo| %>
+    <a href="<%=photo.remove('_s')%>"><%= image_tag photo %></a>
+    <% end %>
+  </div>
+</div>

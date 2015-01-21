@@ -1,0 +1,150 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require bootstrap-tagsinput
+ */
+
+h1{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: #fff !important;
+  /*font-family: 'Exo', sans-serif !important;*/
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+h1#creature-desc{
+  padding-bottom: 0;
+}
+
+#bog-p{
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: #fff !important;
+  /*font-family: 'Exo', sans-serif !important;*/
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+#desc-p{
+  font-size: 20px;
+  color: #fff !important;
+  margin-top: 50px;
+  /*font-family: 'Exo', sans-serif !important;*/
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+#creature-desc-p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff !important;
+  /*font-family: 'Exo', sans-serif !important;*/
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+nav.navbar.navbar-default {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255,255,255,0.5);
+  color: #000;
+}
+
+.navbar-nav > li > a{
+  color: #000 !important;
+}
+
+.navbar-nav > li > a:hover{
+  color: #DEDEDE !important;
+}
+
+.navbar-brand{
+  color: #000 !important;
+}
+
+.navbar-brand:hover{
+  color: #DEDEDE !important;
+}
+
+body{
+  background-image: url("http://wallpaperlepi.com/wp-content/uploads/2014/11/Black-White-Swamp-Wallpaper-iPhone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+a:active{
+  color: #000;
+  text-decoration: none;
+}
+
+th{
+  font-size: 20px;
+  color: #fff;
+}
+
+td{
+  color: #fff;
+}
+
+.outer{
+  margin-top: 50px;
+  background-color: rgba(0,0,0,0.3);
+  padding-bottom: 100px;
+}
+
+.index-outer{
+  margin-top: 100px;
+  min-height: 350px;
+  background-color: rgba(0,0,0,0.3);
+  padding-bottom: 50px;
+}
+
+#error_explanation{
+  background-color: #FF0000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+label{
+  color: #fff;
+}
+
+#tag-p{
+  color: #fff;
+}
+
+input.tagcloud.btn{
+  margin: 10px;
+}
+
+.bootstrap-tagsinput{
+  width: 300px;
+}
+
+
+

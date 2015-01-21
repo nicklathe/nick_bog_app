@@ -1,0 +1,12 @@
+<div class="index-outer col-md-12">
+  <div class="col-md-10 col-md-offset-1">
+    <h1>Tags</h1>
+
+    <% tag_max = @tags.map {|t| t.creatures.length}.sort.last %>
+    <% @tags.each do |tag| %>
+    <% fontsize = (tag.creatures.length.to_f / tag_max) * 30 %>
+    <%= button_to tag.name, tag_path(tag.name), method: :get, :class => "tagcloud btn", :style => "font-size: #{fontsize.to_i + 5}px" %>
+    <% end %>
+
+  </div>
+</div>
