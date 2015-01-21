@@ -43,6 +43,24 @@ h1#creature-desc{
   font-family: 'Julius Sans One', sans-serif !important;
 }
 
+.padding {
+  margin: 10px;
+  /*padding: 20px;*/
+  border-radius: 20%;
+  font: inherit;
+  /*line-height: normal;*/
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+.padding:hover {
+  background-color: #333;
+  color:#fff;
+  border-color: #333;
+
+}
+
+
+
 #creature-desc-p{
   margin-top: 10px;
   font-size: 20px;
